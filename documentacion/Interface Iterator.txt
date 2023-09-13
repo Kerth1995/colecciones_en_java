@@ -1,0 +1,13 @@
+1. Implementación Iterator<E>
+	1.1 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Iterator.html
+	- Es un Arrgelo dinámico
+	1.2 All Known Subinterfaces:
+			- EventIterator, ListIterator<E>, PrimitiveIterator<T,​T_CONS>, PrimitiveIterator.OfDouble, PrimitiveIterator.OfInt, PrimitiveIterator.OfLong, XMLEventReader
+	1.3 Direct Known Subclasses::
+			- AttributeList, RoleList, RoleUnresolvedList
+	1.4 Type Parameters:
+			E - the type of elements returned by this iterator
+	1.5 Example
+	public class ArrayList<E> 
+		extends AbstractList<E>
+		implements List<E>, RandomAccess, Cloneable, Serializable

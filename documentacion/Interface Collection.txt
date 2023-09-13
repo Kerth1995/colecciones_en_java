@@ -1,0 +1,80 @@
+1. La interfaz Collection<E> es el padre de todas las colecciones en Java.
+	1.1 https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
+	1.1.1 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Collection.html
+	1.2 All Superinterfaces:
+			- Iterable<E>
+	1.3 All Known Subinterfaces:
+			- BeanContext, BeanContextServices, BlockingDeque<E>, BlockingQueue<E>, Deque<E>, List<E>, 
+			NavigableSet<E>, Queue<E>, Set<E>, SortedSet<E>, TransferQueue<E>
+	1.4 All Known Implementing Classes:
+			- AbstractCollection, AbstractList, AbstractQueue, AbstractSequentialList, AbstractSet, ArrayBlockingQueue, 
+			ArrayDeque, ArrayList, AttributeList, BeanContextServicesSupport, BeanContextSupport, ConcurrentHashMap.KeySetView, 
+			ConcurrentLinkedDeque, ConcurrentLinkedQueue, ConcurrentSkipListSet, CopyOnWriteArrayList, CopyOnWriteArraySet, 
+			DelayQueue, EnumSet, HashSet, JobStateReasons, LinkedBlockingDeque, LinkedBlockingQueue, LinkedHashSet, LinkedList, 
+			LinkedTransferQueue, PriorityBlockingQueue, PriorityQueue, RoleList, RoleUnresolvedList, Stack, SynchronousQueue, TreeSet, Vector
+	1.5 Type Parameters:
+			E - the type of elements in this collection
+	1.6 Example
+			public interface Collection<E> extends Iterable<E>
+	1.6 Methods
+		1.2.1 add(E e)
+				Ensures that this collection contains the specified element (optional operation).
+				- return boolean
+		1.2.1 addAll(Collection<? extends E> c)
+				Adds all of the elements in the specified collection to this collection (optional operation).
+				- return boolean
+		1.2.1 clear()
+				Removes all of the elements from this collection (optional operation).
+				- return void
+		1.2.1 contains(Object o)
+				Returns true if this collection contains the specified element.
+				- return boolean
+		1.2.1 containsAll(Collection<?> c)
+				Returns true if this collection contains all of the elements in the specified collection.
+				- return boolean
+		1.2.1 equals(Object o)
+				Compares the specified object with this collection for equality.
+				- return boolean
+		1.2.1 hashCode()
+				Returns the hash code value for this collection.
+				- return int
+		1.2.1 isEmpty()
+				Returns true if this collection contains no elements.
+				- return boolean
+		1.2.1 iterator()
+				Returns an iterator over the elements in this collection.
+				- return Iterator<E>
+		1.2.1 parallelStream()
+				Returns a possibly parallel Stream with this collection as its source.
+				- return default Stream<E>
+		1.2.1 remove(Object o)
+				Removes a single instance of the specified element from this collection, if it is present (optional operation).
+				- return boolean
+		1.2.1 removeAll(Collection<?> c)
+				Removes all of this collection's elements that are also contained in the specified collection (optional operation).
+				- return  boolean
+		1.2.1 removeIf(Predicate<? super E> filter)
+				Removes all of the elements of this collection that satisfy the given predicate.
+				- return default boolean
+		1.2.1 retainAll(Collection<?> c)
+				Retains only the elements in this collection that are contained in the specified collection (optional operation).
+				- return boolean
+		1.2.1 size()
+				Returns the number of elements in this collection.
+				- return int
+		1.2.1 spliterator()
+				Creates a Spliterator over the elements in this collection.
+				- return default Spliterator<E>
+		1.2.1 stream()
+				Returns a sequential Stream with this collection as its source.
+				- return default Stream<E>
+		1.2.1 toArray()
+				Returns an array containing all of the elements in this collection.
+				- return Object[]
+		1.2.1 toArray(T[] a)
+				Returns an array containing all of the elements in this collection; the runtime type of the returned array is that of the 
+				specified array.
+				- return <T> T[]
+				
+				
+2. La class Collections de java es un utilitario que permite ejecutar metodos de utilidad en las listas.

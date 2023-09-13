@@ -1,0 +1,117 @@
+1. La interface List<E>
+	1.1 https://docs.oracle.com/javase/8/docs/api/java/util/List.html
+	1.1.1 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html
+	1.2 All Superinterfaces:
+			- Collection<E>, Iterable<E>
+	1.3 All Known Subinterfaces:
+			- BeanContext, BeanContextServices, BlockingDeque<E>, BlockingQueue<E>, Deque<E>, List<E>, 
+			NavigableSet<E>, Queue<E>, Set<E>, SortedSet<E>, TransferQueue<E>
+	1.4 All Known Implementing Classes:
+			- AbstractList, AbstractSequentialList, ArrayList, AttributeList, CopyOnWriteArrayList, LinkedList, RoleList, 
+			RoleUnresolvedList, Stack, Vector
+	1.5 Type Parameters:
+			E - the type of elements in this collection
+	1.6 Example
+			public interface List<E> extends Collection<E>
+	1.6 Methods
+		1.6.1 add(E e)
+				Appends the specified element to the end of this list (optional operation).
+				- return boolean
+		1.6.2 add(int index, E element)
+				Inserts the specified element at the specified position in this list (optional operation).
+				- return void
+		1.6.3 addAll(Collection<? extends E> c)
+				Appends all of the elements in the specified collection to the end of this list, in the order that they are returned 
+				by the specified collection's iterator (optional operation).
+				- return boolean
+		1.6.4 addAll(int index, Collection<? extends E> c)
+				Inserts all of the elements in the specified collection into this list at the specified position (optional operation).
+				- return boolean
+		1.6.5 clear()
+				Removes all of the elements from this list (optional operation).
+				- return void
+		1.6.6 contains(Object o)
+				Returns true if this list contains the specified element.
+				- return boolean
+		1.6.7 containsAll(Collection<?> c)
+				Returns true if this list contains all of the elements of the specified collection.
+				- return boolean
+		1.6.8 	equals(Object o)
+				Compares the specified object with this list for equality.
+				- return boolean
+		1.6.9 	get(int index)
+				Returns the element at the specified position in this list.
+				- return E
+		1.6.10 hashCode()
+				Returns the hash code value for this list.
+				- return int
+		1.6.11 indexOf(Object o)
+				Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
+				- return int
+		1.6.12 isEmpty()
+				Returns true if this list contains no elements.
+				- return  boolean
+		1.6.13 iterator()
+				Returns an iterator over the elements in this list in proper sequence.
+				- return Iterator<E>
+		1.6.14 lastIndexOf(Object o)
+				Returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element.
+				- return int
+		1.6.15 listIterator()
+				Returns a list iterator over the elements in this list (in proper sequence).
+				- return ListIterator<E>
+		1.6.16 listIterator(int index)
+				Returns a list iterator over the elements in this list (in proper sequence), starting at the specified position in the list.
+				- return ListIterator<E>
+		1.6.17 remove(int index)
+				Removes the element at the specified position in this list (optional operation).
+				- return E
+		1.6.18 remove(Object o)
+				Removes the first occurrence of the specified element from this list, if it is present (optional operation).
+				- return boolean
+		1.6.19 removeAll(Collection<?> c)
+				Removes from this list all of its elements that are contained in the specified collection (optional operation).
+				- return boolean
+		1.6.20 replaceAll(UnaryOperator<E> operator)
+				Replaces each element of this list with the result of applying the operator to that element.
+				- return default void
+		1.6.21 retainAll(Collection<?> c)
+				Retains only the elements in this list that are contained in the specified collection (optional operation).
+				- return boolean
+		1.6.22 set(int index, E element)
+				Replaces the element at the specified position in this list with the specified element (optional operation).
+				- return E
+		1.6.23 size()
+				Returns the number of elements in this list.
+				- return int
+		1.6.24 sort(Comparator<? super E> c)
+				Sorts this list according to the order induced by the specified Comparator.
+				- return default void
+		1.6.25 spliterator()
+				Creates a Spliterator over the elements in this list.
+				- return default Spliterator<E>
+		1.6.26 subList(int fromIndex, int toIndex)
+				Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
+				- return List<E>
+		1.6.27 toArray()
+				Returns an array containing all of the elements in this list in proper sequence (from first to last element).
+				- return Object[]
+		1.6.28 toArray(T[] a)
+				Returns an array containing all of the elements in this list in proper sequence (from first to last element); 
+				the runtime type of the returned array is that of the specified array.
+				- return <T> T[]
+
+2. Implementación ArrayList
+	2.1 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/ArrayList.html
+	- Es un Arrgelo dinámico
+	2.2 All Implemented Interfaces:
+			- Serializable, Cloneable, Iterable<E>, Collection<E>, List<E>, RandomAccess
+	2.3 Direct Known Subclasses::
+			- AttributeList, RoleList, RoleUnresolvedList
+	2.5 Type Parameters:
+			E - the type of elements in this list
+	2.6 Example
+	public class ArrayList<E> 
+		extends AbstractList<E>
+		implements List<E>, RandomAccess, Cloneable, Serializable
+
