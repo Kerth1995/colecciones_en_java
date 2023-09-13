@@ -75,6 +75,3 @@
 				Returns an array containing all of the elements in this collection; the runtime type of the returned array is that of the 
 				specified array.
 				- return <T> T[]
-				
-				
-2. La class Collections de java es un utilitario que permite ejecutar metodos de utilidad en las listas.

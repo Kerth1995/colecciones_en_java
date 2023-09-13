@@ -1,0 +1,8 @@
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/ListIterator.html
+
+implementacion: 
+	public interface ListIterator<E> extends Iterator<E>
+
+Docs:
+
+An iterator for lists that allows the programmer to traverse the list in either direction, modify the list during iteration, and obtain the iterator's current position in the list. A ListIterator has no current element; its cursor position always lies between the element that would be returned by a call to previous() and the element that would be returned by a call to next(). An iterator for a list of length n has n+1 possible cursor positions

@@ -1,0 +1,5 @@
+2. La class Collections de java es un utilitario que permite ejecutar metodos de utilidad en las listas.
+
+https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html
+
+Esta clase consta exclusivamente de métodos estáticos que operan o devuelven colecciones. Contiene algoritmos polimórficos que operan en colecciones, "envoltorios", que devuelven una nueva colección respaldada por una colección específica, y algunas otras cosas raras.

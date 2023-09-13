@@ -3,6 +3,7 @@ package listInterface.ArrayListImpl;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.ListIterator;
 
 public class ArrayListExample {
 
@@ -33,5 +34,30 @@ public class ArrayListExample {
         listaNombres.forEach(System.out::println);
         System.out.println("elementos = " + elementos);
         elementos.forEach(System.out::println);
+        
+        //Iteración de arrayList
+        ListIterator<String> iterator =listaColores.listIterator();
+
+        System.out.println("Se realiza la itración mediante iteradores");
+        while (iterator.hasNext()){
+            System.out.println("El valor es: " + iterator.next());
+        }
+
+        System.out.println("Se realiza la itración mediante iteradores de manera inversa");
+        while (iterator.hasPrevious()){
+            System.out.println("El valor es: " + iterator.previous());
+        }
+
+        System.out.println("Se elimina un color cualquiera");
+        while (iterator.hasNext()){
+            if (iterator.next().equals("Morado")) iterator.remove();
+
+
+        }
+
+        System.out.println("Se realiza la itración mediante iteradores de manera inversa pero si el color Morado");
+        for (ListIterator iter = listaColores.listIterator(); iter.hasNext();){
+            System.out.println("color: " + iter.next());
+        }
     }
 }
