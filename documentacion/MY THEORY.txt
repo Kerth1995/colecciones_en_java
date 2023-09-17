@@ -1,0 +1,11 @@
+1.There are four kind of Linked Lists
+
+	1. Simple Linked List
+	2. Circular simple Linked List
+	3. Double Linked List (LinkedList use this shape)
+	4. Circular double Linked List
+
+2. ArrayList VS LinkedList
+	
+	1. ArrayList: It is good to (GET) value, check if (CONTAIN) any value and to get the (NEXT) value.
+	2. LinkedList: It is good to (ADD) any value in any position, (REMOVE) any value in any position and to get the (NEXT) value.	
