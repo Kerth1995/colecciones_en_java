@@ -8,4 +8,20 @@
 2. ArrayList VS LinkedList
 	
 	1. ArrayList: It is good to (GET) value, check if (CONTAIN) any value and to get the (NEXT) value.
-	2. LinkedList: It is good to (ADD) any value in any position, (REMOVE) any value in any position and to get the (NEXT) value.	
+	2. LinkedList: It is good to (ADD) any value in any position, (REMOVE) any value in any position and to get the (NEXT) value.
+	3. LinkedList es una clase doblemente enlazada, lo que signifca que el nodo anteriormente agregado tiene una referencia del siguiente nodo y viciversa.	
+	4. ArrayList esta conformado por arreglos.
+
+3. Los ArrayList son de flujo asincrono. Los ArrayList solo incremente el array interno en un 50%. Internamente la clase ArrayList utiliza iteradores para realizar las iteraciones
+
+4. La clase Vecto es una clase para implementar listas, aunque actualmente ya no se utiliza mucho. Tiene un velocidad lenta para las iteraciones. Ademas la clase Vector puede utilizar iteradores o enumeradores y trabaja de forma sincronizada al momento de hacer iteraciones.
+
+5. Las View Collections, se utiliza para crear una especie de ventana o referencia a un arreglo, para ello utilizamos el metodo asList de la clase Arrays. Por ejemplo;
+
+	String[] nombres = {"Manuel", "Jordan", "Jorge", "Ortencio"};
+	List<String> nombresList = Arrays.asList(nombres); // eso es una view collection
+
+O tambien se puede dar cuando creamos sub lista de una lista.
+	List<String> miSublista = nombresList.subList(0, 2); //  esto tambien es una view collection
+
+

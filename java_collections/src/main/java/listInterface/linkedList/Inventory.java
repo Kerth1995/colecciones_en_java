@@ -1,5 +1,6 @@
-package linkedList;
+package listInterface.linkedList;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -57,4 +58,5 @@ public class Inventory {
         products.forEach(System.out::println);
         System.out.println("===================================");
     }
+
 }

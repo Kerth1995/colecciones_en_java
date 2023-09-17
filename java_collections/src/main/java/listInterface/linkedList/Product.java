@@ -1,4 +1,4 @@
-package linkedList;
+package listInterface.linkedList;
 
 import java.util.Objects;
 

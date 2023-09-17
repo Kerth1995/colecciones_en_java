@@ -1,0 +1,8 @@
+1. https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#:~:text=Class%20LinkedList&text=Doubly%2Dlinked%20list%20implementation%20of,for%20a%20doubly%2Dlinked%20list.
+
+2. All Implemented Interfaces:
+Serializable, Cloneable, Iterable<E>, Collection<E>, Deque<E>, List<E>, Queue<E>
+
+3. public class LinkedList<E>
+extends AbstractSequentialList<E>
+implements List<E>, Deque<E>, Cloneable, Serializable
