@@ -1,3 +1,4 @@
+=============== Interface List ==================
 1.There are four kind of Linked Lists
 
 	1. Simple Linked List
@@ -23,5 +24,45 @@
 
 O tambien se puede dar cuando creamos sub lista de una lista.
 	List<String> miSublista = nombresList.subList(0, 2); //  esto tambien es una view collection
+
+
+====================== Pilas (Stack) y Colas (Queue) ======================
+1. Las pilas y colas son colecciones de datos 
+==== PILAS (Stack) =====
+
+1. Las pilas son structuras de tipo LIFO (Last in - First out), el ultimo elemento en entrar es el primero en salir.
+
+2. El ultimo elemento apliado se le denomina Top o Top of stack y el primer elemnto apilado se le llama buttom.
+
+3. Para agregar elementos utilizamos el metodo Push y para obtener un elemento utilizamos el metodo Pop.
+
+4. El ordenamiento es de orden natural, los datos de almacenan uno detras de otro.
+
+
+==== COLAS (Queue) =====
+
+1. Las colas son estructuras de datos FIFO (First in - First out), el primer elemento en entrar es el primero elemento en salir.
+
+2. El primer elemento encolado se como conoce como Front o Head y al último elemento encolado se le conoce como Back o Tail
+
+3. Para agregar elementos a una cola se le conoce como Enqueue (encolado) para sacar u obtener elementos de una cola se conoce como Dequeue (desencolar) 
+
+4. El ordenamiento es de orden natural, los datos de almacenan uno detras de otro.
+
+==== BICOLAS ====
+
+1. La bicola o doble cola es un tipo de cola especial
+
+2. Se puede representar a partir de un vector y dos indices, frecuentemente se utiliza en listas circulares doblemente enlazadas
+
+3. Para implementar bicolas se utiliza la interfaz Deque
+
+
+==== COLAS DE PRIORIDAD ====
+
+1. El ordenamiento de este tipo de colas es en base a un ordenamiento basado en prioridades.
+
+
+
 
 
