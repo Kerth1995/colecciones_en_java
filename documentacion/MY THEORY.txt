@@ -62,6 +62,7 @@ O tambien se puede dar cuando creamos sub lista de una lista.
 
 1. El ordenamiento de este tipo de colas es en base a un ordenamiento basado en prioridades.
 
+2. Para implementar este tipo de colas, se utiliza la clase PriorityQueue
 
 
 
