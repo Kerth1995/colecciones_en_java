@@ -1,0 +1,28 @@
+1.https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html
+
+2. Una cola de prioridad ilimitada basada en un montón de prioridad. Los elementos de la cola de prioridad se ordenan según su orden natural o mediante un comparador proporcionado en el momento de la construcción de la cola, según el constructor que se utilice. Una cola de prioridad no permite elementos nulos.
+
+3. Type Parameters:
+E - the type of elements held in this collection
+
+4. All Implemented Interfaces:
+Serializable, Iterable<E>, Collection<E>, Queue<E>
+
+5. La calse PriorityQueue implementa una cola de prioridad que utiliza la estructura Binary Heap
+
+6. Aunque un Binary Heap puede implementarse como un arbol, usando nodos y punteros , PriorityQueue no lo hace de esa manera
+
+7. PriorityQueue utiliza un arreglo interno para implementar esta estructura
+
+8. PriorityQueue utiliza una formula para saber de un nodo padre cuales son los indices de sus nodos hijos
+
+9. Tambien utiliza una formula para saber de un nodo hijo, cual es el nodo padre
+
+======== las formulas son las siguientes ==============
+Para saber el nodo hijo izquierdo
+	2*indice
+Para saber el nodo hijo derecho
+	2*indice+2
+Para saber el padre de un nodo hijo
+	(indice-1)/2
+=======================================================

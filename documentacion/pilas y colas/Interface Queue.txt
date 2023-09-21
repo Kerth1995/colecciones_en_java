@@ -1,0 +1,14 @@
+1. https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html
+
+2. Una colección diseñada para sujetar elementos antes de su procesamiento. Además de las operaciones básicas de recolección, las colas brindan operaciones adicionales de inserción, extracción e inspección.
+
+3. public interface Queue<E>
+extends Collection<E>
+
+4. All Known Implementing Classes:
+AbstractQueue, ArrayBlockingQueue, ArrayDeque, ConcurrentLinkedDeque, ConcurrentLinkedQueue, DelayQueue, LinkedBlockingDeque, LinkedBlockingQueue, LinkedList, LinkedTransferQueue, PriorityBlockingQueue, PriorityQueue, SynchronousQueue
+
+5. All Known Subinterfaces:
+BlockingDeque<E>, BlockingQueue<E>, Deque<E>, TransferQueue<E>
+
+6. Es una cola que ordena de manera FIFO

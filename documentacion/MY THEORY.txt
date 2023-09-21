@@ -34,9 +34,11 @@ O tambien se puede dar cuando creamos sub lista de una lista.
 
 2. El ultimo elemento apliado se le denomina Top o Top of stack y el primer elemnto apilado se le llama buttom.
 
-3. Para agregar elementos utilizamos el metodo Push y para obtener un elemento utilizamos el metodo Pop.
+3. Para agregar elementos utilizamos el metodo Push() y para obtener un elemento utilizamos el metodo Pop().
 
 4. El ordenamiento es de orden natural, los datos de almacenan uno detras de otro.
+
+5. Para obtener la cabecera de una pila se utiliza el metodo peek()
 
 
 ==== COLAS (Queue) =====
@@ -62,8 +64,20 @@ O tambien se puede dar cuando creamos sub lista de una lista.
 
 1. El ordenamiento de este tipo de colas es en base a un ordenamiento basado en prioridades.
 
-2. Para implementar este tipo de colas, se utiliza la clase PriorityQueue
+2. Para implementar este tipo de colas, se utiliza la clase PriorityQueue3. 
 
+3. El desencolamiento de la cola tambien es en base a una prioridad especificada
+
+
+===== BINARY HEAP ====
+
+1. Un Monticulo Binario o Binary Heap es una estructura de datos de tipo arbol binario izquierdista cuyos nodos cumplen con la propiedad heap
+
+2. Un arbol binario es un grafo cuyos nodos solamente tienen dos hijos como maximo
+
+3. Los nodos se insertan de izquierda a derecha
+
+4. Debe de tener la propiedad de Heap o Maximos. lo que significa que el nodo superior tiene mayor prioridad que el nodo inferior
 
 
 

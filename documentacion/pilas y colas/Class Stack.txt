@@ -1,0 +1,10 @@
+1. https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
+
+2. La clase Stack representa una pila de objectos de tipo (LIFO). Ademas la clase Stack extiende del la clase Vector
+
+3. public class Stack<E>
+extends Vector<E>
+
+4. All Implemented Interfaces:
+Serializable, Cloneable, Iterable<E>, Collection<E>, List<E>, RandomAccess
+
