@@ -18,6 +18,12 @@ Serializable, Iterable<E>, Collection<E>, Queue<E>
 
 9. Tambien utiliza una formula para saber de un nodo hijo, cual es el nodo padre
 
+10. El ordenamiento de un BinaryHeap es un ordenamineto natural, es decir implementa el metodo ComparteTo de la interface Comparable para realizar dicho ordenamiento. Tambien puede ordenar mediante la interface Comparator siempre y cuando se le provea de dicho ordenamiento al momento de contruir la lista.
+
+11. Las colas de prioridad no permiten elementos nulos
+
+12. La implementación de la cola de prioridad no es segura para subprocesos. Por lo tanto, deberíamos utilizar PriorityBlockingQueue si queremos un acceso sincronizado.
+
 ======== las formulas son las siguientes ==============
 Para saber el nodo hijo izquierdo
 	2*indice

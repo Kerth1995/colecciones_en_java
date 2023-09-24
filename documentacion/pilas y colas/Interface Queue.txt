@@ -1,4 +1,4 @@
-1. https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html
+1. https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Queue.html
 
 2. Una colección diseñada para sujetar elementos antes de su procesamiento. Además de las operaciones básicas de recolección, las colas brindan operaciones adicionales de inserción, extracción e inspección.
 
@@ -12,3 +12,5 @@ AbstractQueue, ArrayBlockingQueue, ArrayDeque, ConcurrentLinkedDeque, Concurrent
 BlockingDeque<E>, BlockingQueue<E>, Deque<E>, TransferQueue<E>
 
 6. Es una cola que ordena de manera FIFO
+
+7. Cualquier operación nula en las colas de bloqueo da como resultado el lanzamiento de NullPointerException.
