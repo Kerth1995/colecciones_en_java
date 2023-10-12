@@ -80,4 +80,6 @@ O tambien se puede dar cuando creamos sub lista de una lista.
 4. Debe de tener la propiedad de Heap o Maximos. lo que significa que el nodo superior tiene mayor prioridad que el nodo inferior
 
 
+======= COMPARABLE INTERFACE ==============
+
 
