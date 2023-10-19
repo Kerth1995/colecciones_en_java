@@ -1,0 +1,29 @@
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Map.html
+
+1. Type Parameters:
+	K - the type of keys maintained by this map
+	V - the type of mapped values
+
+2. All Known Subinterfaces:
+Bindings, ConcurrentMap<K,​V>, ConcurrentNavigableMap<K,​V>, NavigableMap<K,​V>, SortedMap<K,​V>
+
+3. All Known Implementing Classes:
+AbstractMap, Attributes, AuthProvider, ConcurrentHashMap, ConcurrentSkipListMap, EnumMap, HashMap, Hashtable, Headers, IdentityHashMap, LinkedHashMap, PrinterStateReasons, Properties, Provider, RenderingHints, ScriptObjectMirror, SimpleBindings, TabularDataSupport, TreeMap, UIDefaults, WeakHashMap
+
+================================ conceptoos bbasicos =============
+1. La interfaz Map es una interfaz independiente, no depende de la interface Collection
+2. Trabaja como un diccionario basado en Clave, Valor. Es una interface cuyos valor a agregar aceptan datos genericos, mejor dicho cualquier tipo de objeto
+3. La interfaz Map no acepta valores repetidos en sus clave, pero si se pueden repetir los valor de los datos almacenados en el Value
+4. Las dos implementaciones mas importantes de la interface Map son: HashMap y LinkedHashMap. La clase LinkedHashMap hereda de la clase HashMap.
+5. Las clases HashMap y LinkedHashMap crean un objeto o clase llamada Node o Bucket que permite almacenar dos valores genericos que son Key and Value.
+6. Cada Key generar un codigo unico que se llama Hash, lo que permite que se inserte dentro del Hash Table de la implementacion HashMap.
+
+
+
+
+
+
+
+
+
+

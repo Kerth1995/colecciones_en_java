@@ -1,0 +1,18 @@
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/LinkedHashMap.html
+
+1. Type Parameters:
+	K - the type of keys maintained by this map
+	V - the type of mapped values
+
+2. All Implemented Interfaces:
+Serializable, Cloneable, Map<K,​V>
+
+3. public class LinkedHashMap<K,​V>
+extends HashMap<K,​V>
+implements Map<K,​V>
+
+================================ conceptoos bbasicos =============
+
+1. En la clase LinkedHashMap se trabaja con Hash Table pero mediante listas doblememnte enlazadas. La desventaja de utilizar esta implementacion se debe a que es demasiado lenta para almacenar valores.
+2. La ventaja de utilizar LinkedHashMap es que permite alacenar datos basado en un orden en especifico.
+3. En la clase LinkedHashMap A partir de Java 11, si un Node o bucket tiene mas de ocho elementos repetidos, se produce lo que se le denomina colision, de modo que se creara un arbol para poder mejorar las busqueda de los elementos repetidos. Y si es menor a 6 elementos trabajara como una lista enlazada simple.

@@ -1,0 +1,20 @@
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/HashMap.html
+
+1. Type Parameters:
+	K - the type of keys maintained by this map
+	V - the type of mapped values
+
+2. All Implemented Interfaces:
+Serializable, Cloneable, Map<K,​V>
+
+3. Direct Known Subclasses:
+LinkedHashMap, PrinterStateReasons
+
+4. public class HashMap<K,​V>
+extends AbstractMap<K,​V>
+implements Map<K,​V>, Cloneable, Serializable
+
+================================ conceptoos bbasicos =============
+
+1. En la clase HashMap A partir de Java 11, si un Node tiene mas de ocho elementos repetidos, se produce lo que se le denomina colision, de modo quese creara un arbol para poder mejorar las busqueda de los elementos repetidos. Y si es menor a 6 elementos trabajara como una lista enlazada simple.
+2. En la clase HashMap se trabaja con HashTable que es basado en arreglos convencionales al momento de almacenar los datos. De modo que, no esxiste un orden al momento de almacenar los datos.
