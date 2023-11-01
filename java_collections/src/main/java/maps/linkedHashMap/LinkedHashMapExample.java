@@ -1,9 +1,8 @@
 package maps.linkedHashMap;
 
-import java.util.HashMap;
 import java.util.Map;
 
-public class LinkedHashMap {
+public class LinkedHashMapExample {
     public static void main(String[] args) {
         Map<String, String> hashMap = new java.util.LinkedHashMap<>();
         hashMap.put("uno", "Jordan");
